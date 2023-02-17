@@ -84,7 +84,7 @@ const zh = {
   __COMMAND_SYS_REPORT_REPLY: '如有任何問題，請透過 memochou1993@gmail.com 聯繫超強開發團隊，謝謝。',
   __COMMAND_SYS_VERSION_LABEL: '檢查更新',
   __COMMAND_SYS_VERSION_TEXT: '版本',
-  __COMMAND_SYS_VERSION_REPLY: (version, isLatest) => `目前版本為 ${version}${isLatest ? '，已更新到最新版本' : ''}。`,
+  __COMMAND_SYS_VERSION_REPLY: (version, isLatest) => `目前版本為 ${version}${isLatest ? '，已更新到最新版本!!!!' : ''}。`,
   __COMMAND_TRANSLATE_TO_EN_LABEL: '翻成英文',
   __COMMAND_TRANSLATE_TO_EN_TEXT: '翻成英文',
   __COMMAND_TRANSLATE_TO_EN_PROMPT: '請將以下內容翻譯成英文。',
