@@ -35,7 +35,7 @@ const config = Object.freeze({
   LINE_CHANNEL_ACCESS_TOKEN: env.LINE_CHANNEL_ACCESS_TOKEN || null,
   LINE_CHANNEL_SECRET: env.LINE_CHANNEL_SECRET || null,
   SERPAPI_TIMEOUT: env.SERPAPI_TIMEOUT || 9000,
-  SERPAPI_API_KEY: env.SERPAPI_API_KEY || null,
+  SERPAPI_API_KEY: null || env.SERPAPI_API_KEY,
 });
 
 export default config;
