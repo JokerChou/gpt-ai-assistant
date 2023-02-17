@@ -15,7 +15,7 @@ const config = Object.freeze({
   APP_WEBHOOK_PATH: env.APP_WEBHOOK_PATH || '/webhook',
   APP_MAX_GROUPS: Number(env.APP_MAX_GROUPS) || 1,
   APP_MAX_USERS: Number(env.APP_MAX_USERS) || 5,
-  BOT_NAME: '漢堡拉',
+  BOT_NAME: env.BOT_NAME || 'AI',
   BOT_DEACTIVATED: env.BOT_DEACTIVATED === 'true' || false,
   ERROR_TIMEOUT_DISABLED: env.ERROR_TIMEOUT_DISABLED === 'true' || false,
   VERCEL_ENV: env.VERCEL_ENV || null,
@@ -35,7 +35,7 @@ const config = Object.freeze({
   LINE_CHANNEL_ACCESS_TOKEN: env.LINE_CHANNEL_ACCESS_TOKEN || null,
   LINE_CHANNEL_SECRET: env.LINE_CHANNEL_SECRET || null,
   SERPAPI_TIMEOUT: env.SERPAPI_TIMEOUT || 9000,
-  SERPAPI_API_KEY: null || env.SERPAPI_API_KEY,
+  SERPAPI_API_KEY: env.SERPAPI_API_KEY || null,
 });
 
 export default config;
