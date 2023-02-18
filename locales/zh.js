@@ -79,9 +79,23 @@ const zh = {
   __COMMAND_SYS_DEPLOY_LABEL: '重新啟動',
   __COMMAND_SYS_DEPLOY_TEXT: '重新啟動',
   __COMMAND_SYS_DEPLOY_REPLY: '正在重新啟動',
-  __COMMAND_SYS_REPORT_LABEL: '回報問題',
-  __COMMAND_SYS_REPORT_TEXT: '回報問題',
-  __COMMAND_SYS_REPORT_REPLY: '如有任何問題，請透過 memochou1993@gmail.com 聯繫開發團隊，謝謝。',
+  __COMMAND_SYS_REPORT_LABEL: '你好',
+  __COMMAND_SYS_REPORT_TEXT: '你好',
+  __COMMAND_SYS_REPORT_REPLY: '你好，我叫做「漢堡拉」，但我不愛這樣稱呼自己😆\n
+我們公司服務項目如下：\n
+\n
+\n
+創八多媒體有限公司(平面設計、LOGO設計、網頁設計、網路行銷...等)\n
+https://creative8design.com/\n
+\n
+創八製衣(團體服製作、工作服、學校班服、外套、背心、客製化印刷、打版與設計...等)\n
+https://creative8clothes.com/\n
+\n
+創八艾斯藝術娛樂(活動規劃執行、春酒尾牙活動、婚禮、活動主持、活動佈置、表演...等)\n
+https://www.aceartteam.com/\n
+\n
+\n
+如果您有以上需求，歡迎直接點網址進去與我們聯繫，非常感謝🙏🙏😉',
   __COMMAND_SYS_VERSION_LABEL: '檢查更新',
   __COMMAND_SYS_VERSION_TEXT: '版本',
   __COMMAND_SYS_VERSION_REPLY: (version, isLatest) => `目前版本為 ${version}${isLatest ? '，已更新到最新版本' : ''}。`,
