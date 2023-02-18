@@ -81,7 +81,7 @@ const en = {
   __COMMAND_SYS_DEPLOY_REPLY: 'Restarting',
   __COMMAND_SYS_REPORT_LABEL: 'Hello',
   __COMMAND_SYS_REPORT_TEXT: 'Hello',
-  __COMMAND_SYS_REPORT_REPLY: 'Hello',
+  __COMMAND_SYS_REPORT_REPLY: 'Hello,I am Hamburla',
   __COMMAND_SYS_VERSION_LABEL: 'Version',
   __COMMAND_SYS_VERSION_TEXT: 'Version',
   __COMMAND_SYS_VERSION_REPLY: (version, isLatest) => `Your version is ${isLatest ? 'up-to-date' : version}.`,
